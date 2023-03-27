@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAdviceWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:MyAdviceWebApi.Controllers.BusinessController.GetBusiness">
+            <summary>
+            Gets all the Business
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.BusinessController.GetBusinessByUserId(System.Int32)">
+            <summary>
+            Gets all the Business by User Id
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.BusinessController.GetBusinessByBusinessId(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="businessId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.BusinessController.InsertBusiness(DataAccessLayer.ViewModels.ViewModels.BusinessVM)">
+            <summary>
+            Creates new Business
+            </summary>
+            <param name="businessVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.BusinessController.UpdateBusiness(DataAccessLayer.ViewModels.ViewModels.BusinessVM)">
+            <summary>
+            Updates the Business
+            </summary>
+            <param name="businessVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.BusinessFixedAssetsController.GetBusinessFixedAssetsByBusinessId(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="businessId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.BusinessFixedAssetsController.InsertBusinessFixedAssets(DataAccessLayer.ViewModels.ViewModels.BusinessFixedAssetsVM)">
+            <summary>
+            
+            </summary>
+            <param name="businessFixedAssetsVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.BusinessPremisesController.GetBusinessPremisesByBusinessId(System.Int32)">
+            <summary>
+            Selects the user thats related to the n - m table
+            </summary>
+            <param name="businessId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.BusinessPremisesController.InsertBusinessPremises(DataAccessLayer.ViewModels.ViewModels.BusinessPremisesVM)">
+            <summary>
+            Creates a record on the table BusinessPremises
+            </summary>
+            <param name="businessPremisesVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.BusinessWorkersController.GetBusinessWorkersByBusinessId(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="businessId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.BusinessWorkersController.InsertBusinessPremises(DataAccessLayer.ViewModels.ViewModels.BusinessWorkersVM)">
+            <summary>
+            
+            </summary>
+            <param name="businessworkersVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.DocumentationController.GetDocumentation">
+            <summary>
+            Gets all the documentation
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.DocumentationController.GetDocumentationByUserId(System.Int32)">
+            <summary>
+            Gets all the Documentation with the User's Id
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.DocumentationController.InsertDocumentation(DataAccessLayer.ViewModels.ViewModels.DocumentationVM)">
+            <summary>
+            Inserts a new Documentation on the database
+            </summary>
+            <param name="documentationVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.DocumentationController.UpdateDocumentation(DataAccessLayer.ViewModels.ViewModels.DocumentationVM)">
+            <summary>
+            Updates the Document on the DataBase
+            </summary>
+            <param name="documentationVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.FixedAssetsController.GetFixedAssets">
+            <summary>
+            Gets all the records on the dataasbe
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.FixedAssetsController.GetFixedAssetsByUserId(System.Int32)">
+            <summary>
+            Gets all the records from FixedAssets by its UserId
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.FixedAssetsController.GetFixedAssetsByFixedAssetsId(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="assetsId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.FixedAssetsController.InsertFixedAssets(DataAccessLayer.ViewModels.ViewModels.FixedAssetsVM)">
+            <summary>
+            Inserts a new FixedAssets record on the database 
+            </summary>
+            <param name="fixedAssetsVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.FixedAssetsController.UpdateFixedAssets(DataAccessLayer.ViewModels.ViewModels.FixedAssetsVM)">
+            <summary>
+            Updates the Fixed Assets by its Id
+            </summary>
+            <param name="fixedAssetsVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.FixedAssetsController.GetAllFixedAssetsNotInNM(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="businessId"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.NewsController.InsertNews(DataAccessLayer.ViewModels.ViewModels.NewsVM)">
+            <summary>
+            
+            </summary>
+            <param name="news"></param>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.PremisesController.GetPremises">
+            <summary>
+            Gets all the Premises
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.PremisesController.GetPremisesByUserId(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.PremisesController.GetPremisesByPremisesId(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="premisesId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.PremisesController.InsertPremises(DataAccessLayer.ViewModels.ViewModels.PremisesVM)">
+            <summary>
+            Creates a new Premises on the database
+            </summary>
+            <param name="premisesVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.PremisesController.UpdatePremises(DataAccessLayer.ViewModels.ViewModels.PremisesVM)">
+            <summary>
+            Updates the premises depending on the User
+            </summary>
+            <param name="premisesVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.PremisesController.GetAllPremisesNotInNM(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="businessId"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.UserController.GetUser">
+            <summary>
+            Return a list with all the Users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.UserController.CreateUser(DataAccessLayer.ViewModels.ViewModels.UserVM)">
+            <summary>
+            Creates an user
+            </summary>
+            <param name="userVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.UserController.Login(System.String,System.String)">
+            <summary>
+            Checks if the user is or is not on the database
+            </summary>
+            <param name="email"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.UserController.UpdateUser(DataAccessLayer.ViewModels.ViewModels.UserVM)">
+            <summary>
+            Updates the user
+            </summary>
+            <param name="userVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.WorkersController.GetWorkers">
+            <summary>
+            Returns all the Workers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.WorkersController.GetWorkersByUserId(System.Int32)">
+            <summary>
+            Gets all the workers by UserId
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.WorkersController.GetWorkersByWorkersId(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="workersId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.WorkersController.InsertWorkers(DataAccessLayer.ViewModels.ViewModels.WorkersVM)">
+            <summary>
+            Insertnew Workers on the database
+            </summary>
+            <param name="workersVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.WorkersController.UpdateWorkers(DataAccessLayer.ViewModels.ViewModels.WorkersVM)">
+            <summary>
+            Updates its Worker by its UserId
+            </summary>
+            <param name="workersVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyAdviceWebApi.Controllers.WorkersController.GetAllWorkersNotInNM(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="businessId"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

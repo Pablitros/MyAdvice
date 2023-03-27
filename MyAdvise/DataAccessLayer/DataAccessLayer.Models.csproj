@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200502191311_FirstMigration.cs" />
+    <Compile Remove="Migrations\20200502191311_FirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200519084649_UpdateDBModels.cs" />
+    <Compile Remove="Migrations\20200519084649_UpdateDBModels.Designer.cs" />
+    <Compile Remove="Migrations\20200519093640_UpdateDBModels.cs" />
+    <Compile Remove="Migrations\20200519093640_UpdateDBModels.Designer.cs" />
+    <Compile Remove="Migrations\20200519093739_UpdateDBModels.cs" />
+    <Compile Remove="Migrations\20200519093739_UpdateDBModels.Designer.cs" />
+    <Compile Remove="Migrations\20200519095458_UpdateDBModels.cs" />
+    <Compile Remove="Migrations\20200519095458_UpdateDBModels.Designer.cs" />
+    <Compile Remove="Migrations\20200519095902_UpdateDBModels.cs" />
+    <Compile Remove="Migrations\20200519095902_UpdateDBModels.Designer.cs" />
+    <Compile Remove="Migrations\20200519100408_UpdateDBModels.cs" />
+    <Compile Remove="Migrations\20200519100408_UpdateDBModels.Designer.cs" />
+    <Compile Remove="Migrations\20200519102438_UpdateDBModels.cs" />
+    <Compile Remove="Migrations\20200519102438_UpdateDBModels.Designer.cs" />
+    <Compile Remove="Migrations\20200519102634_UpdateModel.cs" />
+    <Compile Remove="Migrations\20200519102634_UpdateModel.Designer.cs" />
+    <Compile Remove="Migrations\20200519104041_UpdateModel.cs" />
+    <Compile Remove="Migrations\20200519104041_UpdateModel.Designer.cs" />
+    <Compile Remove="Migrations\20200519104912_UpdateModel.cs" />
+    <Compile Remove="Migrations\20200519104912_UpdateModel.Designer.cs" />
+    <Compile Remove="Migrations\20200520153155_add-db-to-dev.cs" />
+    <Compile Remove="Migrations\20200520153155_add-db-to-dev.Designer.cs" />
+    <Compile Remove="Migrations\20200524214706_DbUpdateDocAndBusin.cs" />
+    <Compile Remove="Migrations\20200524214706_DbUpdateDocAndBusin.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
